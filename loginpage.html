@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Login Page </title>
+    <link rel="stylesheet" type="text/css" href="hyphen.css">
+    <link rel="stylesheet" type="text/css" href="loginpage.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="loginpage.js"></script>
+  </head>
+  <body onload="startTime();">
+    <div id="loginDiv" class="styleDiv left">
+      <div class="grid">
+        <div class="grid__item grid__item--12">
+          <img alt="icon" class="middle" id="logo" src="logo.png" width="50%" height="80%">
+          <hr>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="grid__item grid__item--12">
+          <label class="text text--primary text--large">User Login</label>
+          <hr>
+        </div>
+      </div>
+        <div class="grid">
+          <div class="grid__item grid__item--12">
+            <div class="input-icon input-icon--right">
+              <i class="fa fa-user input-icon__icon"></i>
+              <label class="label text--secondary">Username*</label>
+            </div>
+            <div class="input-icon input-icon--right">
+              <i class="fa fa-user input-icon__icon"></i>
+              <input class="input text--small" type="text" placeholder="username"/>
+            </div>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="grid__item grid__item--12">
+            <div class="input-icon input-icon--right">
+              <i class="fa fa-lock input-icon__icon"></i>
+              <label class="label text--secondary">Password*</label>
+            </div>
+            <div class="input-icon input-icon--right">
+              <i class="fa fa-lock input-icon__icon"></i>
+              <input class="input text--small" type="password" placeholder="pasword*"/>
+            </div>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="grid__item grid__item--12">
+            <button id="loginbtn" class="btn btn--primary btn--default btn--round middle"> Login </button>
+          </div>
+        </div>
+        <span class="span size middle">or</span>
+        <hr>
+        <br>
+        <div class="grid">
+          <div class="grid__item grid__item--6">
+            <button class="btn btn--default btn--secondary btn--round left"> <i class="fa fa-facebook-official"></i> login </button>
+          </div>
+          <div class="grid__item grid__item--6">
+            <button class="btn btn--default btn--alert btn--round right"> <i class="fa fa-google-plus"></i> login </button>
+          </div>
+        </div>
+        <hr>
+          <div class="grid">
+            <div class="grid__item grid__item--6">
+              <a id="forgetPasswordLink" class="text--small left" href="#"> forgetpassword </a>
+            </div>
+            <div class="grid__item grid__item--6">
+              <a id="signupLink" class="text--small right" href="#"> signup </a>
+            </div>
+          </div>
+    </div>
+    <div id="images" class="styleDiv right">
+      <img id="loginimage" alt="icon" src="images.jpeg" width="100%" height="80%">
+    </div>
+  </body>
+</html>

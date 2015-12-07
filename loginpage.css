@@ -1,0 +1,46 @@
+body{
+    padding: 25px;
+    /*background-image: url('large.jpg');*/
+    background-repeat: no-repeat;
+}
+hr{
+    border-style: double;
+    color: silver;
+}
+#images {
+    margin-left: 25%;
+    margin-right: 15%;
+}
+.left{
+    float:left;
+}
+#loginbtn {
+    width: 100%;
+}
+.middle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right{
+    float: right;
+}
+.size{
+    color: silver;
+    font-size: 15px;
+}
+.span{
+    align-items: center;
+    border-radius: 50%;
+    background-color: #787878;
+    width: 20px;
+}
+.styleDiv{
+    align-items: center;
+    align-self: center;
+    border: solid 1px;
+    border-color: silver;
+    padding: 25px;
+    position: relative;
+    width: 25%;
+}
